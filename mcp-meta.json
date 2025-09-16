@@ -1,0 +1,17 @@
+{
+  "name": "jimeng-mcp-server",
+  "description": "一个集成了即梦AI图像生成能力的MCP服务器，支持文生图和图生图。",
+  "tags": ["image-generation", "ai-drawing", "jimeng"],
+  "author": "geekane",
+  "configSchema": {
+    "type": "object",
+    "required": ["JIMENG_API_TOKEN"],
+    "properties": {
+      "JIMENG_API_TOKEN": {
+        "type": "string",
+        "title": "即梦API令牌",
+        "description": "从即梦官网获取的 sessionid，用于API认证。"
+      }
+    }
+  }
+}
